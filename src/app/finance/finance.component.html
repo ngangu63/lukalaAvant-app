@@ -7,7 +7,8 @@
         <caption class="fs-2">Contribution des membres</caption>
         <thead class="table-light">
           <tr>
-            <th *ngFor="let header of excelData[0]">{{ header }}</th>
+            <!-- <th *ngFor="let header of excelData[0]">{{ header }}</th> -->
+            <th *ngFor="let header of excelData[0]" [innerHTML]="formatHeader(header, 25)"></th>
           </tr>
         </thead>
         <tbody>
@@ -19,12 +20,16 @@
               <span *ngIf="j<= 2 && row[0]===null" style="font-size: 0;">{{ cell }}</span>
               <span *ngIf="j<= 2 && row[0]!==null" style="text-align: center;">{{ cell }}</span>
               <span *ngIf="j>= 2 && row[0]===null" style="font-size: 0;">{{ cell }}</span>
-              <span *ngIf="j>2 && row[1]==='$'">{{ cell | currency:'USD':'symbol':'1.2-2'}}</span>
-              <span *ngIf="j>2 && row[1]==='€'">{{ cell | currency:'EUR':'symbol':'1.2-2'}}</span>
+              <span *ngIf="j>2 && row[1]==='$'" [style.color]="getColor(cell)">{{ cell |
+                currency:'USD':'symbol':'1.2-2'}}</span>
+              <span *ngIf="j>2 && row[1]==='€'" [style.color]="getColor(cell)">{{ cell |
+                currency:'EUR':'symbol':'1.2-2'}}</span>
+
               <span *ngIf="j>2 && row[0]==='TOTAL (Dollar)'" style="font-weight: bold;">{{ cell |
                 currency:'USD':'symbol':'1.2-2'}}</span>
               <span *ngIf="j>2 && row[0]==='TOTAL (Euro)'" style="font-weight: bold;">{{ cell |
                 currency:'EUR':'symbol':'1.2-2'}}</span>
+
             </td>
           </tr>
 

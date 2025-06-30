@@ -9,14 +9,14 @@ import { CommonModule } from '@angular/common';
   templateUrl: './finance.component.html',
   styleUrl: './finance.component.css'
 })
-export class FinanceComponent implements OnInit{
+export class FinanceComponent implements OnInit {
 
 
-  excelData: any[]=[];
+  excelData: any[] = [];
 
   ngOnInit(): void {
     this.loadExcelFile()
-      
+
   }
 
   loadExcelFile() {
@@ -36,8 +36,20 @@ export class FinanceComponent implements OnInit{
       });
   }
 
+  isNumeric(value: any): boolean {
+    return !isNaN(parseFloat(value)) && isFinite(value);
+  }
 
+  getColor(value: any): string {
+    if (this.isNumeric(value)) {
+      return parseFloat(value) <= 0 ? 'red' : 'black';
+    }
+    return 'black';
+  }
 
-
+formatHeader(header: string, limit: number): string {
+  if (header.length <= limit) return header;
+  return header.slice(0, limit) + '<br>' + header.slice(limit);
+}
 
 }
