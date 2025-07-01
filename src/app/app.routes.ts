@@ -17,6 +17,7 @@ import { ActOfNotaryComponent } from './act-of-notary/act-of-notary.component';
 import { VueEnPlanComponent } from './vue-en-plan/vue-en-plan.component';
 import { FicheDeProjectComponent } from './fiche-de-project/fiche-de-project.component';
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 
 
@@ -84,6 +85,7 @@ export const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
 })
 export class AppRoutingModule { }
