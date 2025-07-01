@@ -59,7 +59,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Accueil">Accueil</a>
+                <a class="nav-link active" aria-current="page" href="#/Accueil">Accueil</a>
               </li>
 
               <li class="nav-item dropdown">
@@ -68,19 +68,19 @@
                   Membres
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="LesDirigeants">Équipe dirigeante</a></li>
+                  <li><a class="dropdown-item" href="#/LesDirigeants">Équipe dirigeante</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="TousLesMembres">Membres</a></li>
+                  <li><a class="dropdown-item" href="#/TousLesMembres">Membres</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="Contact">Contact</a></li>
+                  <li><a class="dropdown-item" href="#/Contact">Contact</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="Finance" data-bs-toggle="modal" data-bs-target="#passwordModal"
+                  <li><a class="dropdown-item" href="#/Finance" data-bs-toggle="modal" data-bs-target="#passwordModal"
                       (click)="isModalOpen =true">Finance</a>
                   </li> 
              <!--      <li><a class="dropdown-item" href="Finance">Finance</a></li> -->
@@ -93,7 +93,7 @@
                   Projects
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="morgue">Morgue</a></li>
+                  <li><a class="dropdown-item" href="#/morgue">Morgue</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -106,21 +106,21 @@
                   Documents
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="Fonctionnement">Autorisation de Fonctionnement</a></li>
+                  <li><a class="dropdown-item" href="#/Fonctionnement">Autorisation de Fonctionnement</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
 
-                  <li><a class="dropdown-item" href="Viabilite">Etat des lieux de viabilité</a></li>
+                  <li><a class="dropdown-item" href="#/Viabilite">Etat des lieux de viabilité</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
 
-                  <li><a class="dropdown-item" href="ROI">Règlement d'ordre intérieur</a></li>
+                  <li><a class="dropdown-item" href="#/ROI">Règlement d'ordre intérieur</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="Intention">Déclaration d'intention</a></li>
+                  <li><a class="dropdown-item" href="#/Intention">Déclaration d'intention</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -128,26 +128,26 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="Status">Projet de Status</a></li>
+                  <li><a class="dropdown-item" href="#/Status">Projet de Status</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="vueEnPlan">Vue en plan coté de la morgue</a></li>
+                  <li><a class="dropdown-item" href="#/vueEnPlan">Vue en plan coté de la morgue</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="FicheDeProject1">Fiche de project 1</a></li>
+                  <li><a class="dropdown-item" href="#/FicheDeProject1">Fiche de project 1</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="PlanStrategique">Plan strategique 2025–2029</a></li>
+                  <li><a class="dropdown-item" href="#/PlanStrategique">Plan strategique 2025–2029</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Messages">Messages</a>
+                <a class="nav-link" href="#/Messages">Messages</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Nécrologie">Nécrologie</a>
+                <a class="nav-link" href="#/Nécrologie">Nécrologie</a>
               </li>
 
 
@@ -231,8 +231,8 @@
                   </li>
                   <hr class="dropdown-divider">
                   <li><a class="dropdown-item" [routerLink]="['/Maya', 'e9cKkBGleGE']">Maya</a></li>
-                  <hr class="dropdown-divider">
-                  <li><a class="dropdown-item" [routerLink]="['/MayaVersion2', '1oPDUjb7j-o']">Maya version2</a></li>
+                  <!-- <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" [routerLink]="['/MayaVersion2', '1oPDUjb7j-o']">Maya version2</a></li> -->
                   <hr class="dropdown-divider">
                   <li><a class="dropdown-item" [routerLink]="['/ZéroFaute', 'sDCoVhUilys']">Zéro faute</a></li>
                   <hr class="dropdown-divider">
@@ -259,8 +259,8 @@
                   <li><a class="dropdown-item" [routerLink]="['/KaribouYaBintou', '8kR_o9daD2I']">Karibou ya Bintou</a>
                   </li>
                   <hr class="dropdown-divider">
-                  <li><a class="dropdown-item" [routerLink]="['/EbaleYaZaire', '6zh721l_6gI']">Ebale ya Zaïre</a></li>
-                  <hr class="dropdown-divider">
+                  <!-- <li><a class="dropdown-item" [routerLink]="['/EbaleYaZaire', '6zh721l_6gI']">Ebale ya Zaïre</a></li>
+                  <hr class="dropdown-divider"> -->
                   <li><a class="dropdown-item" [routerLink]="['/Deliya', 'YNuSZ3EUS10']">Deliya</a></li>
                   <hr class="dropdown-divider">
 

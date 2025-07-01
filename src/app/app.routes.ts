@@ -88,7 +88,7 @@ export const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [BrowserModule, RouterModule.forRoot(routes)],
+  imports: [BrowserModule, RouterModule.forRoot(routes, {useHash:true})],
   exports: [RouterModule],
   
  
