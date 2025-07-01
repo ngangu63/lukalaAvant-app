@@ -21,7 +21,7 @@ import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.co
 
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+/*   { path: '', component: HomeComponent }, */
   { path: 'Accueil', component: HomeComponent },
   { path: 'LesDirigeants', component: LesDirigeantsComponent },
   { path: 'TousLesMembres', component: OthersMembersComponent },
@@ -79,8 +79,6 @@ export const routes: Routes = [
   { path: 'FicheDeProject1', component: FicheDeProjectComponent },
   { path: 'PlanStrategique', component: PlanStrategiqueComponent },
   { path: 'morgue', component: VueEnPlanComponent },
-  
- 
   { path: '**', component: HomeComponent }
 ];
 
