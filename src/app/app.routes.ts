@@ -30,8 +30,8 @@ export const routes: Routes = [
   { path: 'LesDirigeants', component: LesDirigeantsComponent },
   { path: 'TousLesMembres', component: OthersMembersComponent },
   { path: 'Contact', component: ContactComponent },
-  /*   { path: 'Finance', component: FinanceComponent }, */
-  { path: 'Finance', component: FinanceComponent, canActivate: [authGuard] },
+  { path: 'Finance', component: FinanceComponent },
+  /* { path: 'Finance', component: FinanceComponent, canActivate: [authGuard] }, */
   { path: 'Nécrologie', component: Mp3PlayerComponent },
   { path: 'Ndaya/:videoId', component: YoutubeComponent },
   { path: 'Mukungu/:videoId', component: YoutubeComponent },
