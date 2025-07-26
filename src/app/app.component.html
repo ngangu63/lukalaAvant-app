@@ -80,10 +80,10 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-<!--                   <li><a class="dropdown-item" href="#/Finance" data-bs-toggle="modal" data-bs-target="#passwordModal"
+                   <li><a class="dropdown-item" href="#/Finance" data-bs-toggle="modal" data-bs-target="#passwordModal"
                       (click)="isModalOpen =true">Finance</a>
-                  </li>  -->
-                  <li><a class="dropdown-item" href="#/Finance">Finance</a></li>
+                  </li> 
+                  <!-- <li><a class="dropdown-item" href="#/Finance">Finance</a></li> -->
                 </ul>
               </li>
 
@@ -370,7 +370,7 @@
           <input type="password" class="form-control" [(ngModel)]="password" placeholder="Enter password">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" (click)="checkPassword('/Finance')">Submit</button>
+          <button type="button" class="btn btn-primary" (click)="checkPassword('/Finance')" data-bs-dismiss="modal">Submit</button>
         </div>
       </div>
     </div>

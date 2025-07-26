@@ -1,5 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { MyfooterComponent } from "./myfooter/myfooter.component";
 import { RouterModule } from '@angular/router';
 import { OthersMembersComponent } from './others-members/others-members.component';
@@ -33,19 +33,20 @@ export class AppComponent {
 
   isModalOpen = false;
   password = '';
-  validPassword = 'Ngipiti2025';
+  validPassword = '2025';
 
 
-  constructor(private pictureService: BigPictureService) { }
+  constructor(private pictureService: BigPictureService, private router: Router) { }
+
 
   checkPassword(route: string): void {
-    //if (this.password === this.validPassword) {
-    if (true) {
-      //console.log(route)
+    if (this.password === this.validPassword) {
+      this.password = '';
       this.isModalOpen = false;
-      window.location.href = route;
+      this.router.navigate([route]); // navigate dynamically to the route
     } else {
       alert('Invalid password!');
+      this.router.navigate(['#']);
     }
   }
 
