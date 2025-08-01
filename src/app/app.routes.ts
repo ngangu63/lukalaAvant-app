@@ -69,6 +69,7 @@ export const routes: Routes = [
   { path: 'OurDream/:videoId', component: YoutubeComponent },
   { path: 'SummerInCity/:videoId', component: YoutubeComponent },
   { path: 'VousLesFemmes/:videoId', component: YoutubeComponent },
+  { path: 'RockYourBaby/:videoId', component: YoutubeComponent },
 
 
 
