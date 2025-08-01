@@ -54,6 +54,24 @@ export const routes: Routes = [
   { path: 'MayaVersion2/:videoId', component: YoutubeComponent },
   { path: 'Ngungi/:videoId', component: YoutubeComponent },
   { path: 'Djino/:videoId', component: YoutubeComponent },
+  { path: 'CarelessWhisper/:videoId', component: YoutubeComponent },
+  { path: 'WhenIseeYouAngain/:videoId', component: YoutubeComponent },
+  { path: 'ASummerPlace/:videoId', component: YoutubeComponent },
+  { path: 'Kinshasa/:videoId', component: YoutubeComponent },
+  { path: 'LaVieEnRose/:videoId', component: YoutubeComponent },
+  { path: 'Carnavale/:videoId', component: YoutubeComponent },
+  { path: 'LikeALady/:videoId', component: YoutubeComponent },
+  { path: 'WhatToKnow/:videoId', component: YoutubeComponent },
+  { path: 'CoastLine/:videoId', component: YoutubeComponent },
+  { path: 'PrendSoinDelle/:videoId', component: YoutubeComponent },
+  { path: 'Fideles/:videoId', component: YoutubeComponent },
+  { path: 'Shiver/:videoId', component: YoutubeComponent },
+  { path: 'OurDream/:videoId', component: YoutubeComponent },
+  { path: 'SummerInCity/:videoId', component: YoutubeComponent },
+  { path: 'VousLesFemmes/:videoId', component: YoutubeComponent },
+
+
+
   /*   { path: 'Noël/:videoId', component: YoutubeComponent },
     { path: 'HolyNight/:videoId', component: YoutubeComponent },
     { path: 'FelizNavidad/:videoId', component: YoutubeComponent }, 
@@ -63,7 +81,7 @@ export const routes: Routes = [
     { path: 'CarelessWhisper/:videoId', component: YoutubeComponent },
     { path: 'whenIseeYouAngain/:videoId', component: YoutubeComponent },
     { path: 'LastChristmas/:videoId', component: YoutubeComponent }, */
-  { path: 'CentièmeDossier/:videoId', component: YoutubeComponent }, 
+  { path: 'CentièmeDossier/:videoId', component: YoutubeComponent },
   { path: 'Koukoulou/:videoId', component: YoutubeComponent },
   { path: 'Ikea/:videoId', component: YoutubeComponent },
   { path: 'Nzale/:videoId', component: YoutubeComponent },
