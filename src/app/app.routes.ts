@@ -20,10 +20,6 @@ import { FicheDeProjectComponent } from './fiche-de-project/fiche-de-project.com
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
 import { authGuard } from './auth/auth.guard';
 
-
-
-
-
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'Accueil', component: HomeComponent },
@@ -73,8 +69,6 @@ export const routes: Routes = [
   { path: 'KissOfLife/:videoId', component: YoutubeComponent },
   { path: 'AinTNobody/:videoId', component: YoutubeComponent },
 
-
-
   /*   { path: 'Noël/:videoId', component: YoutubeComponent },
     { path: 'HolyNight/:videoId', component: YoutubeComponent },
     { path: 'FelizNavidad/:videoId', component: YoutubeComponent }, 
@@ -85,6 +79,7 @@ export const routes: Routes = [
     { path: 'whenIseeYouAngain/:videoId', component: YoutubeComponent },
     { path: 'LastChristmas/:videoId', component: YoutubeComponent }, */
   { path: 'CentièmeDossier/:videoId', component: YoutubeComponent },
+  { path: 'Orgasy/:videoId', component: YoutubeComponent },
   { path: 'Koukoulou/:videoId', component: YoutubeComponent },
   { path: 'Ikea/:videoId', component: YoutubeComponent },
   { path: 'Nzale/:videoId', component: YoutubeComponent },
@@ -109,14 +104,11 @@ export const routes: Routes = [
   { path: 'PlanStrategique', component: PlanStrategiqueComponent },
   { path: 'morgue', component: VueEnPlanComponent },
 
-
-  { path: '**', component: HomeComponent }
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
   imports: [BrowserModule, RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule],
-
-
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
