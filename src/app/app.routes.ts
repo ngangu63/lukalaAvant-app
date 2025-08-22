@@ -68,6 +68,8 @@ export const routes: Routes = [
   { path: 'RockYourBaby/:videoId', component: YoutubeComponent },
   { path: 'KissOfLife/:videoId', component: YoutubeComponent },
   { path: 'AinTNobody/:videoId', component: YoutubeComponent },
+  { path: 'Holiday/:videoId', component: YoutubeComponent },
+  { path: 'Fresh/:videoId', component: YoutubeComponent },
 
   /*   { path: 'Noël/:videoId', component: YoutubeComponent },
     { path: 'HolyNight/:videoId', component: YoutubeComponent },
