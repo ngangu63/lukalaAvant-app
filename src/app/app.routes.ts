@@ -36,6 +36,7 @@ export const routes: Routes = [
   { path: 'Monzo/:videoId', component: YoutubeComponent },
   { path: 'JamaisKolonga/:videoId', component: YoutubeComponent },
   { path: 'KaribouYaBintou/:videoId', component: YoutubeComponent },
+  { path: 'TokomaBaCamarade/:videoId', component: YoutubeComponent },
   { path: 'Ngobila/:videoId', component: YoutubeComponent },
   { path: 'Jesus3/:videoId', component: YoutubeComponent },
   { path: 'Kelya/:videoId', component: YoutubeComponent },
