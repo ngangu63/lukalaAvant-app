@@ -83,7 +83,8 @@ export const routes: Routes = [
     { path: 'CarelessWhisper/:videoId', component: YoutubeComponent },
     { path: 'whenIseeYouAngain/:videoId', component: YoutubeComponent },
     { path: 'LastChristmas/:videoId', component: YoutubeComponent }, */
- 
+
+  { path: 'Accident/:videoId', component: YoutubeComponent },
   { path: 'CentièmeDossier/:videoId', component: YoutubeComponent },
   { path: 'Orgasy/:videoId', component: YoutubeComponent },
   { path: 'Koukoulou/:videoId', component: YoutubeComponent },
