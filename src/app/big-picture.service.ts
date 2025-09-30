@@ -34,7 +34,7 @@ export class BigPictureService {
     { name: 'José Nzayambela', role: '', location: 'France', imageUrl: 'assets/images/membres/JosyNzayambela.jpeg', gender: 0, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Jean Pierre Miankodila', role: '', location: 'États-Unis', imageUrl: 'assets/images/membres/JPMinkodila.jpeg', gender: 1, defaultImage: 'assets/images/JPMinkodila.jpeg', profession: '', message: '', LinkedIn: '' },
     { name: 'Samuel Mankuika', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/SaintMankuika.jpeg', gender: 1, defaultImage: 'assets/images/JPMinkodila.jpeg', profession: '', message: '', LinkedIn: '' },
-    { name: 'Massonet Massongele', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/MassongeleMasonnet.jpeg', gender: 1, defaultImage: 'assets/images/JPMinkodila.jpeg', profession: '', message: '', LinkedIn: '' },
+    { name: 'Massonet Massongele', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/MassongeleMasonnet2.jpeg', gender: 1, defaultImage: 'assets/images/JPMinkodila.jpeg', profession: '', message: '', LinkedIn: '' },
     { name: 'Fidele Menavanza', role: '', location: 'États-Unis', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Clémentine Buaka', role: '', location: 'France', imageUrl: '', gender: 0, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Constant Lutonda', role: '', location: 'Brésil', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
