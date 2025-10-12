@@ -21,7 +21,7 @@ export class FinanceComponent implements OnInit {
 
   loadExcelFile() {
     // Path to the Excel file in the assets folder
-    const filePath = 'assets/Excells/CotisationSpeciale1.xlsx';
+    const filePath = 'assets/Excells/CotisationSpeciale2.xlsx';
 
     fetch(filePath)
       .then(response => response.arrayBuffer())
