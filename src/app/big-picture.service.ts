@@ -87,7 +87,8 @@ export class BigPictureService {
 
   // Method to return the entire array of Pictures
   getBigPictures(): BigPicture[] {
-    return this.bigPictures;
+    // return this.bigPictures; 
+    return [...this.bigPictures];
   }
 
   searchBigPictureByName(query: string): Observable<BigPicture[] | undefined> {
