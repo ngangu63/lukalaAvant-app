@@ -76,7 +76,8 @@ export const routes: Routes = [
   { path: 'NdayaParadis/:videoId', component: YoutubeComponent },
   { path: 'Prolongation/:videoId', component: YoutubeComponent }, 
   { path: 'TinaWhatLove/:videoId', component: YoutubeComponent }, 
-  { path: 'TakeOnMe/:videoId', component: YoutubeComponent },
+  { path: 'TakeOnMe/:videoId', component: YoutubeComponent }, 
+  { path: 'Kamale/:videoId', component: YoutubeComponent }, 
   
 
   /*   { path: 'Noël/:videoId', component: YoutubeComponent },
