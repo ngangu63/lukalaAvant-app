@@ -78,7 +78,11 @@ export const routes: Routes = [
   { path: 'TinaWhatLove/:videoId', component: YoutubeComponent },
   { path: 'TakeOnMe/:videoId', component: YoutubeComponent },
   { path: 'Kamale/:videoId', component: YoutubeComponent },
-  { path: 'JoelPhoto/:videoId', component: YoutubeComponent },
+  { path: 'JoelPhoto/:videoId', component: YoutubeComponent },   
+  { path: 'MolungeYaMbanda/:videoId', component: YoutubeComponent }, 
+  { path: 'SeliaZozo/:videoId', component: YoutubeComponent }, 
+  { path: 'Tangawisi/:videoId', component: YoutubeComponent }, 
+
 
   { path: 'Noël/:videoId', component: YoutubeComponent },
   { path: 'HolyNight/:videoId', component: YoutubeComponent },
@@ -117,6 +121,7 @@ export const routes: Routes = [
   { path: 'FicheDeProject1', component: FicheDeProjectComponent },
   { path: 'PlanStrategique', component: PlanStrategiqueComponent },
   { path: 'morgue', component: VueEnPlanComponent },
+   
 
   { path: '**', component: HomeComponent },
 ];
