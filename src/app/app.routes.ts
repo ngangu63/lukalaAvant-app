@@ -87,7 +87,10 @@ export const routes: Routes = [
   { path: 'Kelhiambiliabel/:videoId', component: YoutubeComponent },
   { path: 'OnMyOwnft/:videoId', component: YoutubeComponent },
   { path: 'ForeverYoung/:videoId', component: YoutubeComponent },
-  
+  { path: 'BabyComeToMe/:videoId', component: YoutubeComponent },
+  { path: 'LoveWillFollow/:videoId', component: YoutubeComponent },
+  { path: 'SelfControl/:videoId', component: YoutubeComponent },
+  { path: 'LongAsILive/:videoId', component: YoutubeComponent },
 
   { path: 'Noël/:videoId', component: YoutubeComponent },
   { path: 'HolyNight/:videoId', component: YoutubeComponent },
