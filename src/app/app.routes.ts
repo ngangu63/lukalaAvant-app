@@ -90,8 +90,8 @@ export const routes: Routes = [
   { path: 'BabyComeToMe/:videoId', component: YoutubeComponent },
   { path: 'LoveWillFollow/:videoId', component: YoutubeComponent },
   { path: 'SelfControl/:videoId', component: YoutubeComponent },
-  { path: 'LongAsILive/:videoId', component: YoutubeComponent },
-
+  { path: 'LongAsILive/:videoId', component: YoutubeComponent },  
+  { path: 'ForTheLoveOfYou/:videoId', component: YoutubeComponent }, 
   { path: 'Noël/:videoId', component: YoutubeComponent },
   { path: 'HolyNight/:videoId', component: YoutubeComponent },
   { path: 'FelizNavidad/:videoId', component: YoutubeComponent },
