@@ -90,8 +90,8 @@ export const routes: Routes = [
   { path: 'BabyComeToMe/:videoId', component: YoutubeComponent },
   { path: 'LoveWillFollow/:videoId', component: YoutubeComponent },
   { path: 'SelfControl/:videoId', component: YoutubeComponent },
-  { path: 'LongAsILive/:videoId', component: YoutubeComponent },  
-  { path: 'ForTheLoveOfYou/:videoId', component: YoutubeComponent }, 
+  { path: 'LongAsILive/:videoId', component: YoutubeComponent },
+  { path: 'ForTheLoveOfYou/:videoId', component: YoutubeComponent },
   { path: 'Noël/:videoId', component: YoutubeComponent },
   { path: 'HolyNight/:videoId', component: YoutubeComponent },
   { path: 'FelizNavidad/:videoId', component: YoutubeComponent },
@@ -102,6 +102,7 @@ export const routes: Routes = [
   { path: 'whenIseeYouAngain/:videoId', component: YoutubeComponent },
   { path: 'LastChristmas/:videoId', component: YoutubeComponent },
   { path: 'USA/:videoId', component: YoutubeComponent },
+  { path: 'LoveTheme/:videoId', component: YoutubeComponent },
 
   { path: 'Accident/:videoId', component: YoutubeComponent },
   { path: 'CentièmeDossier/:videoId', component: YoutubeComponent },
