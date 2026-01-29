@@ -18,6 +18,7 @@ import { ActOfNotaryComponent } from './act-of-notary/act-of-notary.component';
 import { VueEnPlanComponent } from './vue-en-plan/vue-en-plan.component';
 import { FicheDeProjectComponent } from './fiche-de-project/fiche-de-project.component';
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
+import { AgriPiloteComponent } from './agri-pilote/agri-pilote.component';
 import { authGuard } from './auth/auth.guard';
 
 export const routes: Routes = [
@@ -130,6 +131,7 @@ export const routes: Routes = [
   { path: 'FicheDeProject1', component: FicheDeProjectComponent },
   { path: 'PlanStrategique', component: PlanStrategiqueComponent },
   { path: 'morgue', component: VueEnPlanComponent },
+  { path: 'agriPilote', component: AgriPiloteComponent },
 
   { path: '**', component: HomeComponent },
 ];
