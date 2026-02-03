@@ -104,6 +104,7 @@ export const routes: Routes = [
   { path: 'LastChristmas/:videoId', component: YoutubeComponent },
   { path: 'USA/:videoId', component: YoutubeComponent },
   { path: 'LoveTheme/:videoId', component: YoutubeComponent },
+  { path: 'Maze/:videoId', component: YoutubeComponent },
 
   { path: 'Accident/:videoId', component: YoutubeComponent },
   { path: 'CentièmeDossier/:videoId', component: YoutubeComponent },
