@@ -105,8 +105,10 @@ export const routes: Routes = [
   { path: 'USA/:videoId', component: YoutubeComponent },
   { path: 'LoveTheme/:videoId', component: YoutubeComponent },
   { path: 'Maze/:videoId', component: YoutubeComponent }, 
-  { path: 'DontEverWonder/:videoId', component: YoutubeComponent },
-
+  { path: 'DontEverWonder/:videoId', component: YoutubeComponent }, 
+  { path: 'CalmingAfricanV1/:videoId', component: YoutubeComponent },
+  { path: 'CalmingAfricanV2/:videoId', component: YoutubeComponent }, 
+  { path: 'RomanticLoveSongsCongo/:videoId', component: YoutubeComponent },
   { path: 'Accident/:videoId', component: YoutubeComponent },
   { path: 'CentièmeDossier/:videoId', component: YoutubeComponent },
   { path: 'Orgasy/:videoId', component: YoutubeComponent },
