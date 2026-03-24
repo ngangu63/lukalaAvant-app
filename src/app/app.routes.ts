@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { YoutubeComponent } from './youtube/youtube.component';
 import { HomeComponent } from './home/home.component';
 import { MessagesComponent } from './messages/messages.component';
+import { SportComponent } from './sport/sport.component';
 import { ROIComponent } from './roi/roi.component';
 import { StatusComponent } from './status/status.component';
 import { ContactComponent } from './contact/contact.component';
@@ -30,6 +31,7 @@ export const routes: Routes = [
   { path: 'Finance', component: FinanceComponent },
   /* { path: 'Finance', component: FinanceComponent, canActivate: [authGuard] }, */
   { path: 'Nécrologie', component: Mp3PlayerComponent },
+  { path: 'Sport', component: SportComponent },
   { path: 'Ndaya/:videoId', component: YoutubeComponent },
   { path: 'Mukungu/:videoId', component: YoutubeComponent },
   { path: 'PesaPosition/:videoId', component: YoutubeComponent },
