@@ -49,8 +49,9 @@ export class YoutubeComponent implements OnInit {
 
   currentColor1: string = 'blue';
   currentColor2: string = 'green';
-  currentColor3: string = 'blue';
-  currentColor4: string = 'black';
+  currentColor3: string = 'rose';
+  currentColor4: string = 'red';
+ 
 
   constructor(private route: ActivatedRoute, private pictureService: BigPictureService, private sanitizer: DomSanitizer) { }
 
