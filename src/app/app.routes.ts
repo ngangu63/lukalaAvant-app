@@ -20,6 +20,7 @@ import { VueEnPlanComponent } from './vue-en-plan/vue-en-plan.component';
 import { FicheDeProjectComponent } from './fiche-de-project/fiche-de-project.component';
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
 import { AgriPiloteComponent } from './agri-pilote/agri-pilote.component';
+import { Sport2Component } from './sport2/sport2.component';
 import { authGuard } from './auth/auth.guard';
 
 export const routes: Routes = [
@@ -143,6 +144,8 @@ export const routes: Routes = [
   { path: 'vueEnPlan', component: VueEnPlanComponent },
   { path: 'FicheDeProject1', component: FicheDeProjectComponent },
   { path: 'PlanStrategique', component: PlanStrategiqueComponent },
+  { path: 'Ciza', component: SportComponent },
+  { path: 'Cilu', component: Sport2Component },
   { path: 'morgue', component: VueEnPlanComponent },
   { path: 'agriPilote', component: AgriPiloteComponent },
 

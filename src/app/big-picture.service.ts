@@ -42,6 +42,7 @@ export class BigPictureService {
     { name: 'Bemvindo Woollams Tio Koffi Koffiento', role: '', location: 'Canada', imageUrl: 'assets/images/membres/BemvindoWoollams1.jpeg', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Blaise Muloki Miahumba', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/BlaiseMulokiMiahumba1.jpeg', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Anselme  Miahumba', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/AnselmeMiahumba1.jpeg', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
+    { name: 'Andre Kinsonas', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/AndreKinsona.jpeg', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Fidele Menavanza', role: '', location: 'États-Unis', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Clémentine Buaka', role: '', location: 'France', imageUrl: '', gender: 0, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Constant Lutonda', role: '', location: 'Brésil', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
