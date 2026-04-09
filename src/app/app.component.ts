@@ -142,6 +142,11 @@ export class AppComponent {
 
   ];
 
+  sportList=[
+    { name: 'Ciza 80', link: ['/ciza'] },
+    { name: 'Cilu',link: ['/cilu'] },
+  ];
+
   congoMusicList = [
     { name: 'Hortense', link: ['/Hortense', 'VpvDSz8skb8'] },
     { name: 'Rtc Riva - Madilu System', link: ['/RTCRIVA', 'owgNTJlBjNQ'] },
