@@ -190,6 +190,7 @@ export class AppComponent {
       name: 'Faute Ya Commerçant',
       link: ['/FauteYaCommerçant', 'uUzK50qrITw'],
     },
+    { name: 'Ebale ya congo', link: ['/EbaleYaCcongo', 'vhoVG_KjEEQ'] },
     { name: 'Mukungu -OK JAZZ', link: ['/Mukungu', 'zveJw24HErM'] },
     { name: 'DJINO - Koffi', link: ['/Djino', 'xaGTNwnHqXM'] },
     { name: 'Pesa Position - OK JAZZ', link: ['/PesaPosition', 'iIwgqiSKGCk'] },
