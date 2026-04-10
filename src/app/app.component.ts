@@ -207,7 +207,8 @@ export class AppComponent {
     { name: 'Kamale', link: ['/Kamale', 'rEOppwdr2GI'] },
     { name: 'Nzale - Tabu Ley', link: ['/Nzale', 'khl2e6to5Co'] },
     { name: 'Nono - Bella Bella', link: ['/Nono', 'T9CPEkxsNxE'] },
-    { name: 'Monzo - OK JAZZ', link: ['/Monzo', '-njsS91vSac'] },
+    { name: 'Monzo - OK JAZZ', link: ['/Monzo', '-njsS91vSac'] }, 
+    { name: 'Congo avenir - Tabu Ley', link: ['/CongoAvenir', 'ocVo7rblNB0'] },
     {
       name: 'Constantation - DJengaka',
       link: ['/Constantation', '5uBwCIWb108'],
