@@ -5,7 +5,7 @@
   text-align: center;
 }
 .carousel-wrapper {
-  margin-top: 83px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 /* Buttons */
-.prev, .next {
+/* .prev, .next {
   position: absolute;
   top: -1.9%;
   transform: translateY(-50%);
@@ -28,7 +28,7 @@
   cursor: pointer;
   font-size: 20px;
 }
-
+ */
 
 .prev { left: 10px; }
 .next { right: 10px; }
