@@ -19,7 +19,7 @@
 /* Buttons */
 .prev, .next {
   position: absolute;
-  top: -2.3%;
+  top: -1.9%;
   transform: translateY(-50%);
   background: rgba(0,0,0,0.5);
   color: red;
