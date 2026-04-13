@@ -5,7 +5,7 @@
   text-align: center;
 }
 .carousel-wrapper {
-  margin-top: 75px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
@@ -19,7 +19,7 @@
 /* Buttons */
 .prev, .next {
   position: absolute;
-  top: -2%;
+  top: -2.3%;
   transform: translateY(-50%);
   background: rgba(0,0,0,0.5);
   color: red;
