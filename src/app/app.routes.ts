@@ -22,6 +22,7 @@ import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.co
 import { AgriPiloteComponent } from './agri-pilote/agri-pilote.component';
 import { Sport2Component } from './sport2/sport2.component';
 import { CarouselComponent } from './features/carousel/carousel.component';
+import { PictureTableComponent } from './features/picture-table/picture-table.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -150,7 +151,7 @@ export const routes: Routes = [
   { path: 'Cilu', component: Sport2Component },
   { path: 'morgue', component: VueEnPlanComponent },
   { path: 'agriPilote', component: AgriPiloteComponent },
-  // { path: 'agriPicture1', component: PicturePlantationComponent },
+  { path: 'pictureTable', component: PictureTableComponent },
   { path: 'agriPicture', component: CarouselComponent },
   { path: '**', component: HomeComponent },
 ];
