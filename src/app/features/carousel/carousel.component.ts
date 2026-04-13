@@ -6,18 +6,19 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './carousel.component.html',
-  styleUrl: './carousel.component.css'
+  styleUrl: './carousel.component.css',
 })
 export class CarouselComponent {
-
-    images = [
+  images = [
+    'assets/plantation/abouture1.jpeg',
+    'assets/plantation/abouture2.jpeg',
     'assets/plantation/bouture1.jpeg',
     'assets/plantation/bouture2.jpeg',
     'assets/plantation/bouture3.jpeg',
     'assets/plantation/bouture4.jpeg',
     'assets/plantation/bouture5.jpeg',
     'assets/plantation/Tracteur1.jpeg',
-    'assets/plantation/Tracteur2.jpeg'
+    'assets/plantation/Tracteur2.jpeg',
   ];
 
   currentIndex = 0;

@@ -4,6 +4,10 @@
   margin: auto;
   text-align: center;
 }
+.carousel-wrapper {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
 
 .carousel-image {
   width: 100%;
@@ -15,7 +19,7 @@
 /* Buttons */
 .prev, .next {
   position: absolute;
-  top: 50%;
+  top: -1.5%;
   transform: translateY(-50%);
   background: rgba(0,0,0,0.5);
   color: red;
@@ -24,6 +28,7 @@
   cursor: pointer;
   font-size: 20px;
 }
+
 
 .prev { left: 10px; }
 .next { right: 10px; }
