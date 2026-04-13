@@ -291,13 +291,5 @@ export class AppComponent {
     { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },
   ];
 
-  images = [
-    'assets/plantation/bouture1.jpeg',
-    'assets/plantation/bouture2.jpeg',
-    'assets/plantation/bouture3.jpeg',
-    'assets/plantation/bouture4.jpeg',
-    'assets/plantation/bouture5.jpeg',
-    'assets/plantation/Tracteur1.jpeg',
-    'assets/plantation/Tracteur2.jpeg',
-  ];
+
 }

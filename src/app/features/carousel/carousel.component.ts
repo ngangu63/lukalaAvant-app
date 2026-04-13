@@ -19,7 +19,7 @@ export class CarouselComponent {
     'assets/plantation/bouture3.jpeg',
     'assets/plantation/bouture4.jpeg',
     'assets/plantation/bouture5.jpeg',
-
+    'assets/plantation/bouture6.jpeg',
   ];
 
   currentIndex = 0;
