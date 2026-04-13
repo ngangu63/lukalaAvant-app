@@ -101,50 +101,121 @@ export class AppComponent {
   }
 
   worldMusicList = [
-    { name: "Maxwell - Ascension (Don't Ever Wonder)", link: ['/DontEverWonder', 'D7rm9t5S4uE'] },
+    {
+      name: "Maxwell - Ascension (Don't Ever Wonder)",
+      link: ['/DontEverWonder', 'D7rm9t5S4uE'],
+    },
     { name: 'After 7 - Ready or Not', link: ['/ReadyOrNot', 'fohpiig8N4U'] },
-    { name: 'George Michael, Aretha Franklin - I Knew You Were Waiting', link: ['/IKnewYouWereWaiting', 'fDxzQJaA228'] },
+    {
+      name: 'George Michael, Aretha Franklin - I Knew You Were Waiting',
+      link: ['/IKnewYouWereWaiting', 'fDxzQJaA228'],
+    },
     { name: 'Johnny Gill - My My My', link: ['/MyMyMy', 'LMcANn_5UxM'] },
-    { name: "Joe - All The Things (Your Man Won't Do) ", link: ['/AllTheThings', 'cVi25pSRAkc'] },
-    { name: 'The Three Degrees - When Will I See You Again', link: ['/WhenIseeYouAngain', '3R878g-SppU'] },
-    { name: "Love Unlimited Orchestra ~ Love's Theme 1973 Disco", link: ['/LoveTheme', 'RLTJ95kj9ng'] },
-    { name: "Tina - What's Love Got To Do With it", link: ['/TinaWhatLove', 'oGpFcHTxjZs'] },
-    { name: 'Toni Braxton - Long As I Live', link: ['/LongAsILive', 'EjW7WzozgI0'] },
-    { name: 'Patti labelle - On My Own ft', link: ['/OnMyOwnft', 'KsH63qJlIMM'] },
-    { name: 'Percy Faith - The Theme from "A Summer Place"', link: ['/ASummerPlace', '3ofmPuHBCCc'] },
+    {
+      name: "Joe - All The Things (Your Man Won't Do) ",
+      link: ['/AllTheThings', 'cVi25pSRAkc'],
+    },
+    {
+      name: 'The Three Degrees - When Will I See You Again',
+      link: ['/WhenIseeYouAngain', '3R878g-SppU'],
+    },
+    {
+      name: "Love Unlimited Orchestra ~ Love's Theme 1973 Disco",
+      link: ['/LoveTheme', 'RLTJ95kj9ng'],
+    },
+    {
+      name: "Tina - What's Love Got To Do With it",
+      link: ['/TinaWhatLove', 'oGpFcHTxjZs'],
+    },
+    {
+      name: 'Toni Braxton - Long As I Live',
+      link: ['/LongAsILive', 'EjW7WzozgI0'],
+    },
+    {
+      name: 'Patti labelle - On My Own ft',
+      link: ['/OnMyOwnft', 'KsH63qJlIMM'],
+    },
+    {
+      name: 'Percy Faith - The Theme from "A Summer Place"',
+      link: ['/ASummerPlace', '3ofmPuHBCCc'],
+    },
     { name: 'Haha - Take On Me', link: ['/TakeOnMe', 'djV11Xbc914'] },
     { name: 'Dieudonne Larose - Accident', link: ['/Accident', '31LxCq1DPDk'] },
     { name: 'Thomas Frinking: Coastline', link: ['/CoastLine', 'b0i4h4ywO1w'] },
     { name: "Chaka Khan: Ain't Nobody", link: ['/AinTNobody', 'rcAv1cGAeXE'] },
-    { name: 'Julio Iglesias: Vous les femmes', link: ['/VousLesFemmes', 'FWhwwSX3fEA'] },
-    { name: 'George Michael - Careless Whisper', link: ['/CarelessWhisper', 'izGwDsrQ1eQ'] },
+    {
+      name: 'Julio Iglesias: Vous les femmes',
+      link: ['/VousLesFemmes', 'FWhwwSX3fEA'],
+    },
+    {
+      name: 'George Michael - Careless Whisper',
+      link: ['/CarelessWhisper', 'izGwDsrQ1eQ'],
+    },
     { name: 'Sade - Kiss Of Life', link: ['/KissOfLife', 'MmOau-PMWJk'] },
-    { name: 'Francis Bebey - Bana ba Zaire', link: ['/Kinshasa', 'lzZz_yVZ9Y0'] },
-    { name: 'Grace Jones - La Vie En Rose', link: ['/LaVieEnRose', 'E5M7l_z93rg'] },
+    {
+      name: 'Francis Bebey - Bana ba Zaire',
+      link: ['/Kinshasa', 'lzZz_yVZ9Y0'],
+    },
+    {
+      name: 'Grace Jones - La Vie En Rose',
+      link: ['/LaVieEnRose', 'E5M7l_z93rg'],
+    },
     { name: 'EL Negro Y RAY - Carnaval', link: ['/Carnavale', '-A2Wwyuqa6g'] },
-    { name: 'The Temptations - Treat Her Like A Lady', link: ['/LikeALady', '3jqHdZi3EYU'] },
-    { name: 'Foreigner - I want to Know What Love Is', link: ['/WhatToKnow', 'r3Pr1_v7hsw'] },
-    { name: 'Quicy Jones - Summer In The City', link: ['/SummerInCity', 'jpbK4tLQH_s'] },
-    { name: "Claude Barzotti - Prends bien soin d'elle", link: ['/PrendSoinDelle', 'hPZvuowFkx8'] },
+    {
+      name: 'The Temptations - Treat Her Like A Lady',
+      link: ['/LikeALady', '3jqHdZi3EYU'],
+    },
+    {
+      name: 'Foreigner - I want to Know What Love Is',
+      link: ['/WhatToKnow', 'r3Pr1_v7hsw'],
+    },
+    {
+      name: 'Quicy Jones - Summer In The City',
+      link: ['/SummerInCity', 'jpbK4tLQH_s'],
+    },
+    {
+      name: "Claude Barzotti - Prends bien soin d'elle",
+      link: ['/PrendSoinDelle', 'hPZvuowFkx8'],
+    },
     { name: 'Julio Iglesias - Fideles', link: ['/Fideles', 'cqS-VrUEiHo'] },
     { name: 'George Benson - Shiver', link: ['/Shiver', '8VLnxe7BBq0'] },
     { name: 'The EQS - In Our Dream', link: ['/OurDream', 'IQsbmLqNF1A'] },
     { name: 'Madona - Holiday', link: ['/Holiday', 'h4bP9tj_0Zk'] },
-    { name: 'Whitney with Kenny G - For The Love Of You', link: ['/ForTheLoveOfYou', '_BB48yeqQ8Q'] },
+    {
+      name: 'Whitney with Kenny G - For The Love Of You',
+      link: ['/ForTheLoveOfYou', '_BB48yeqQ8Q'],
+    },
     { name: 'Kool and The Gang - Fresh', link: ['/Fresh', 'sTJ1XwGDcA4'] },
     { name: 'S.O.S Band - The Finest', link: ['/TheFinest', 'iK0YkFOD18U'] },
-    { name: 'Cherrelle - Saturday Love', link: ['/SaturdayLove', 'efLcgUQmyT8'] },
-    { name: 'Alphaville - Forever Young', link: ['/ForeverYoung', 'oNjQXmoxiQ8'] },
-    { name: 'Regina Belle - Baby Come To Me', link: ['/BabyComeToMe', 'pQflBV1UgVY'] },
-    { name: 'Kenny Loggins -Love Will Follow', link: ['/LoveWillFollow', 'ANA_hlouklY'] },
-    { name: 'Laura Branigan - Self Control', link: ['/SelfControl', 'RP0_8J7uxhs'] },
-    { name: 'George McCrae: Rock Your Baby', link: ['/RockYourBaby', '6Q15-kql1YE'] },
-
+    {
+      name: 'Cherrelle - Saturday Love',
+      link: ['/SaturdayLove', 'efLcgUQmyT8'],
+    },
+    {
+      name: 'Alphaville - Forever Young',
+      link: ['/ForeverYoung', 'oNjQXmoxiQ8'],
+    },
+    {
+      name: 'Regina Belle - Baby Come To Me',
+      link: ['/BabyComeToMe', 'pQflBV1UgVY'],
+    },
+    {
+      name: 'Kenny Loggins -Love Will Follow',
+      link: ['/LoveWillFollow', 'ANA_hlouklY'],
+    },
+    {
+      name: 'Laura Branigan - Self Control',
+      link: ['/SelfControl', 'RP0_8J7uxhs'],
+    },
+    {
+      name: 'George McCrae: Rock Your Baby',
+      link: ['/RockYourBaby', '6Q15-kql1YE'],
+    },
   ];
 
-  sportList=[
+  sportList = [
     { name: 'Ciza 80', link: ['/ciza'] },
-    { name: 'Cilu',link: ['/cilu'] },
+    { name: 'Cilu', link: ['/cilu'] },
   ];
 
   congoMusicList = [
@@ -207,7 +278,7 @@ export class AppComponent {
     { name: 'Kamale', link: ['/Kamale', 'rEOppwdr2GI'] },
     { name: 'Nzale - Tabu Ley', link: ['/Nzale', 'khl2e6to5Co'] },
     { name: 'Nono - Bella Bella', link: ['/Nono', 'T9CPEkxsNxE'] },
-    { name: 'Monzo - OK JAZZ', link: ['/Monzo', '-njsS91vSac'] }, 
+    { name: 'Monzo - OK JAZZ', link: ['/Monzo', '-njsS91vSac'] },
     { name: 'Congo avenir - Tabu Ley', link: ['/CongoAvenir', 'ocVo7rblNB0'] },
     {
       name: 'Constantation - DJengaka',
@@ -218,5 +289,15 @@ export class AppComponent {
     { name: 'Jamais Kolonga', link: ['/JamaisKolonga', 'Hhue5hh_IOM'] },
     { name: 'Maya Version2 - Simaro', link: ['/MayaVersion2', '1oPDUjb7j-o'] },
     { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },
+  ];
+
+  images = [
+    'assets/plantation/bouture1.jpeg',
+    'assets/plantation/bouture2.jpeg',
+    'assets/plantation/bouture3.jpeg',
+    'assets/plantation/bouture4.jpeg',
+    'assets/plantation/bouture5.jpeg',
+    'assets/plantation/Tracteur1.jpeg',
+    'assets/plantation/Tracteur2.jpeg',
   ];
 }

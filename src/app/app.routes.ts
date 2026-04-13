@@ -21,7 +21,7 @@ import { FicheDeProjectComponent } from './fiche-de-project/fiche-de-project.com
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
 import { AgriPiloteComponent } from './agri-pilote/agri-pilote.component';
 import { Sport2Component } from './sport2/sport2.component';
-import { authGuard } from './auth/auth.guard';
+import { CarouselComponent } from './features/carousel/carousel.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -150,7 +150,8 @@ export const routes: Routes = [
   { path: 'Cilu', component: Sport2Component },
   { path: 'morgue', component: VueEnPlanComponent },
   { path: 'agriPilote', component: AgriPiloteComponent },
-
+  // { path: 'agriPicture1', component: PicturePlantationComponent },
+  { path: 'agriPicture', component: CarouselComponent },
   { path: '**', component: HomeComponent },
 ];
 
