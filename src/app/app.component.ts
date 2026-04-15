@@ -219,6 +219,7 @@ export class AppComponent {
   ];
 
   congoMusicList = [
+    { name: 'FAYA TESS : ESWI YO WAPI', link: ['/FayaTessEswi','9kRwzBZChZo'] },
     { name: 'Hortense', link: ['/Hortense', 'VpvDSz8skb8'] },
     { name: 'Rtc Riva - Madilu System', link: ['/RTCRIVA', 'owgNTJlBjNQ'] },
     { name: 'Koukoulou - Koffi', link: ['/Koukoulou', 'j8gCb6bKC44'] },
@@ -234,7 +235,7 @@ export class AppComponent {
     { name: 'Selia zozo - Papa Noel', link: ['/SeliaZozo', 'aU3hSzW3j3c'] },
     { name: 'Tangawisi', link: ['/Tangawisi', 'Td34YSYubvA'] },
     { name: 'Prolongation - Karmapa', link: ['/Prolongation', 'k3_odBeWt44'] },
-    { name: 'Ndaya paradis', link: ['/NdayaParadis', 'PSyUYXHN9p4'] },
+    { name: 'Ndaya paradis', link: ['/NdayaParadis', '-FcW4Wexciw'] },
     { name: 'Nzele - Madilu System', link: ['/NzeleMadilu', 'FGkEAN9lMzA'] },
     {
       name: 'Centieme Dossier - Fally Ipupa',
@@ -289,6 +290,8 @@ export class AppComponent {
     { name: 'Jamais Kolonga', link: ['/JamaisKolonga', 'Hhue5hh_IOM'] },
     { name: 'Maya Version2 - Simaro', link: ['/MayaVersion2', '1oPDUjb7j-o'] },
     { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },
+    
+
   ];
 
 
