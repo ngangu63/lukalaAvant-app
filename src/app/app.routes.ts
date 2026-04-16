@@ -103,6 +103,7 @@ export const routes: Routes = [
   { path: 'LoveWillFollow/:videoId', component: YoutubeComponent },
   { path: 'SelfControl/:videoId', component: YoutubeComponent },
   { path: 'FayaTessEswi/:videoId', component: YoutubeComponent },
+  { path: 'FayaLaurentFantome/:videoId', component: YoutubeComponent },
   { path: 'ForTheLoveOfYou/:videoId', component: YoutubeComponent },
   { path: 'ForTheLoveOfYou/:videoId', component: YoutubeComponent },
   { path: 'Noël/:videoId', component: YoutubeComponent },

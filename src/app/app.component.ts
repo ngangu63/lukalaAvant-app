@@ -220,36 +220,25 @@ export class AppComponent {
 
   congoMusicList = [
     { name: 'FAYA TESS : ESWI YO WAPI', link: ['/FayaTessEswi','9kRwzBZChZo'] },
-    { name: 'Hortense', link: ['/Hortense', 'VpvDSz8skb8'] },
     { name: 'Rtc Riva - Madilu System', link: ['/RTCRIVA', 'owgNTJlBjNQ'] },
+    { name: 'Hortense', link: ['/Hortense', 'VpvDSz8skb8'] },
     { name: 'Koukoulou - Koffi', link: ['/Koukoulou', 'j8gCb6bKC44'] },
     { name: 'Kelhia - Mbilia Bel', link: ['/Kelhiambiliabel', '0SpzfQnFC4Q'] },
     { name: 'Eswi yo wapi - Mbilia Bel', link: ['/Eswiyowapi', 'gcrkm2HFV-o'] },
     { name: 'Maze - Rochereau Tabu Ley', link: ['/Maze', 'xUaMEARE-2E'] },
     { name: 'Beyanga - Mbilia Bel', link: ['/Beyanga', 'ZhXnj3EACXA'] },
-    { name: 'Molunge Ya Mbanda', link: ['/MolungeYaMbanda', '53ck5zij__o'] },
-    {
-      name: 'Bon Samaritain - Papa Noel',
-      link: ['/BonSamaritain', '8bMc6-VWvMM'],
-    },
+    { name: 'Molunge Ya Mbanda', link: ['/MolungeYaMbanda', '53ck5zij__o'] }, 
+    { name: 'Laurent fantome', link: ['/FayaLaurentFantome', 'yHy3NBmep14'] },
+    { name: 'Bon Samaritain - Papa Noel', link: ['/BonSamaritain', '8bMc6-VWvMM'],},
     { name: 'Selia zozo - Papa Noel', link: ['/SeliaZozo', 'aU3hSzW3j3c'] },
     { name: 'Tangawisi', link: ['/Tangawisi', 'Td34YSYubvA'] },
     { name: 'Prolongation - Karmapa', link: ['/Prolongation', 'k3_odBeWt44'] },
     { name: 'Ndaya paradis', link: ['/NdayaParadis', '-FcW4Wexciw'] },
     { name: 'Nzele - Madilu System', link: ['/NzeleMadilu', 'FGkEAN9lMzA'] },
-    {
-      name: 'Centieme Dossier - Fally Ipupa',
-      link: ['/CentièmeDossier', 'gIfxaiLOjPQ'],
-    },
-    {
-      name: 'Nzambe mokonzi- Bela Bela',
-      link: ['/Nzambemokonzi', 'CXDRyznygQA'],
-    },
+    { name: 'Centieme Dossier - Fally Ipupa', link: ['/CentièmeDossier', 'gIfxaiLOjPQ'],},
+    { name: 'Nzambe mokonzi- Bela Bela', link: ['/Nzambemokonzi', 'CXDRyznygQA'],},
     { name: 'Joël photo', link: ['/JoelPhoto', '-a_02lS-lg0'] },
-    {
-      name: 'Tokoma ba Camarade Pamba',
-      link: ['/TokomaBaCamarade', 'm7N5ZvrsmjE'],
-    },
+    {name: 'Tokoma ba Camarade Pamba', link: ['/TokomaBaCamarade', 'm7N5ZvrsmjE'],},
     { name: 'Orgasy - Fally Ipupa', link: ['/Orgasy', 'ihmtjqUyFWQ'] },
     { name: 'Point Final', link: ['/PointFinal', 'ulznRM_QQPc'] },
     { name: 'Nzoto Na Nga Se Moko', link: ['/NzotoMoko', 'Po0U1sF45S0'] },
@@ -258,19 +247,13 @@ export class AppComponent {
     { name: 'Coucou - Koffi', link: ['/Coucou', 'HZNKqR6C1cE'] },
     { name: 'Ngobila - Koffi', link: ['/Ngobila', 'ka-M15DX0Pw'] },
     { name: 'Ndaya', link: ['/Ndaya', 'hNco9iib8nM'] },
-    {
-      name: 'Faute Ya Commerçant',
-      link: ['/FauteYaCommerçant', 'uUzK50qrITw'],
-    },
+    { name: 'Faute Ya Commerçant', link: ['/FauteYaCommerçant', 'uUzK50qrITw'],},
     { name: 'Ebale ya congo', link: ['/EbaleYaCcongo', 'vhoVG_KjEEQ'] },
     { name: 'Mukungu -OK JAZZ', link: ['/Mukungu', 'zveJw24HErM'] },
     { name: 'DJINO - Koffi', link: ['/Djino', 'xaGTNwnHqXM'] },
     { name: 'Pesa Position - OK JAZZ', link: ['/PesaPosition', 'iIwgqiSKGCk'] },
     { name: 'Mabele (Ntoto) - Simaro', link: ['/Mabele', 'RAnITiF0Fgc'] },
-    {
-      name: 'Karibou ya Bintou -Tabu Lay',
-      link: ['/KaribouYaBintou', '8kR_o9daD2I'],
-    },
+    { name: 'Karibou ya Bintou -Tabu Lay', link: ['/KaribouYaBintou', '8kR_o9daD2I'],},
     { name: 'Deliya - Ntesa', link: ['/Deliya', 'YNuSZ3EUS10'] },
     { name: 'Kelya', link: ['/Kelya', '-t6_DXt7jW8'] },
     { name: 'Longo', link: ['/Longo', 'NzLK08ISCbU'] },
@@ -281,17 +264,12 @@ export class AppComponent {
     { name: 'Nono - Bella Bella', link: ['/Nono', 'T9CPEkxsNxE'] },
     { name: 'Monzo - OK JAZZ', link: ['/Monzo', '-njsS91vSac'] },
     { name: 'Congo avenir - Tabu Ley', link: ['/CongoAvenir', 'ocVo7rblNB0'] },
-    {
-      name: 'Constantation - DJengaka',
-      link: ['/Constantation', '5uBwCIWb108'],
-    },
+    { name: 'Constantation - DJengaka',link: ['/Constantation', '5uBwCIWb108'],},
     { name: 'Matoba - Lipua Lipua', link: ['/Matoba', 'xhxM5RqqDf0'] },
     { name: 'Ebale Ya Zaire - Simaro', link: ['/EbaleYaZaire', '6zh721l_6gI'] },
     { name: 'Jamais Kolonga', link: ['/JamaisKolonga', 'Hhue5hh_IOM'] },
     { name: 'Maya Version2 - Simaro', link: ['/MayaVersion2', '1oPDUjb7j-o'] },
-    { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },
-    
-
+    { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },    
   ];
 
 
