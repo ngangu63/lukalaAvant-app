@@ -270,6 +270,8 @@ export class AppComponent {
     { name: 'Jamais Kolonga', link: ['/JamaisKolonga', 'Hhue5hh_IOM'] },
     { name: 'Maya Version2 - Simaro', link: ['/MayaVersion2', '1oPDUjb7j-o'] },
     { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },    
+    { name: 'Ayindjo - Nyboma', link: ['/Ayindjo', 'DMDSnkW5tfE'] },   
+
   ];
 
 
