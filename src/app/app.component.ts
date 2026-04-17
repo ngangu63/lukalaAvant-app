@@ -224,7 +224,7 @@ export class AppComponent {
   ];
 
   congoMusicList = [
-    { name: 'FAYA TESS : ESWI YO WAPI', link: ['/FayaTessEswi','9kRwzBZChZo'] },
+    { name: 'ESWI YO WAPI - FAYA TESS', link: ['/FayaTessEswi','9kRwzBZChZo'] },
     { name: 'Rtc Riva - Madilu System', link: ['/RTCRIVA', 'owgNTJlBjNQ'] },
     { name: 'Hortense', link: ['/Hortense', 'VpvDSz8skb8'] },
     { name: 'Koukoulou - Koffi', link: ['/Koukoulou', 'j8gCb6bKC44'] },
@@ -276,7 +276,8 @@ export class AppComponent {
     { name: 'Maya Version2 - Simaro', link: ['/MayaVersion2', '1oPDUjb7j-o'] },
     { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },    
     { name: 'Ayindjo - Nyboma', link: ['/Ayindjo', 'DMDSnkW5tfE'] },  
-    { name: 'Ebale ya Ccongo', link: ['/EbaleYaCcongo', 'vhoVG_KjEEQ'] },
+    { name: 'Ebale ya Congo', link: ['/EbaleYaCcongo', 'vhoVG_KjEEQ'] }, 
+    { name: 'Ambiance katho', link: ['/AmbianceKatho', 'epknnlEHi8U'] },
 
   ];
 
