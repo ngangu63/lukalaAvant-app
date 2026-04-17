@@ -100,7 +100,12 @@ export class AppComponent {
     return `hsl(${hue}, 70%, 50%)`;
   }
 
-  worldMusicList = [
+  worldMusicList = [  
+
+    {
+      name: "Christopher Cross - Sailing",
+      link: ['/Salling', '9PnXcP8ZI7M'],
+    },
     {
       name: "Maxwell - Ascension (Don't Ever Wonder)",
       link: ['/DontEverWonder', 'D7rm9t5S4uE'],
@@ -270,7 +275,7 @@ export class AppComponent {
     { name: 'Jamais Kolonga', link: ['/JamaisKolonga', 'Hhue5hh_IOM'] },
     { name: 'Maya Version2 - Simaro', link: ['/MayaVersion2', '1oPDUjb7j-o'] },
     { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },    
-    { name: 'Ayindjo - Nyboma', link: ['/Ayindjo', 'DMDSnkW5tfE'] },   
+    { name: 'Ayindjo - Nyboma', link: ['/Ayindjo', 'DMDSnkW5tfE'] },  
 
   ];
 
