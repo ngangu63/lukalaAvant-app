@@ -276,6 +276,7 @@ export class AppComponent {
     { name: 'Maya Version2 - Simaro', link: ['/MayaVersion2', '1oPDUjb7j-o'] },
     { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },    
     { name: 'Ayindjo - Nyboma', link: ['/Ayindjo', 'DMDSnkW5tfE'] },  
+    { name: 'Ebale ya Ccongo', link: ['/EbaleYaCcongo', 'vhoVG_KjEEQ'] },
 
   ];
 
