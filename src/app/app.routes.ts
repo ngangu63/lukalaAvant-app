@@ -143,6 +143,7 @@ export const routes: Routes = [
   { path: 'Nono/:videoId', component: YoutubeComponent },
   { path: 'FauteYaCommerçant/:videoId', component: YoutubeComponent },
   { path: 'Deliya/:videoId', component: YoutubeComponent },
+  { path: 'parafifi/:videoId', component: YoutubeComponent },
   { path: 'Messages', component: MessagesComponent },
   { path: 'ROI', component: ROIComponent },
   { path: 'Status', component: StatusComponent },

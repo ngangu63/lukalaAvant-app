@@ -277,7 +277,8 @@ export class AppComponent {
     { name: 'Ikea - Koffi', link: ['/Ikea', 'HxDdpBMWI3Q'] },    
     { name: 'Ayindjo - Nyboma', link: ['/Ayindjo', 'DMDSnkW5tfE'] },  
     { name: 'Ebale ya Congo', link: ['/EbaleYaCcongo', 'vhoVG_KjEEQ'] }, 
-    { name: 'Ambiance katho', link: ['/AmbianceKatho', 'epknnlEHi8U'] },
+    { name: 'Ambiance katho', link: ['/AmbianceKatho', 'epknnlEHi8U'] }, 
+    { name: "Parafifi -Grand Kallé & L'African Jazz ' ", link: ['/parafifi', '7CFwpxZtk8c'] },
 
   ];
 
