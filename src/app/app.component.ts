@@ -101,7 +101,9 @@ export class AppComponent {
   }
 
   worldMusicList = [  
-
+    
+    { name: 'Elton John - Sacrifice', link: ['/sacrifice', 'NrLkTZrPZA4'] }, 
+    { name: 'Michael Jackson - Human Nature', link: ['/humanNature', 'YNzuiRuQNYY'] },
     {
       name: "Christopher Cross - Sailing",
       link: ['/Salling', '9PnXcP8ZI7M'],
