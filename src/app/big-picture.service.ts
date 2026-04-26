@@ -44,7 +44,7 @@ export class BigPictureService {
     { name: 'Anselme  Miahumba', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/AnselmeMiahumba1.jpeg', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'André Kinsona (NDRO)', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/AndreKinsona.jpeg', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'José Mukoko', role: '', location: 'DR Congo', imageUrl: 'assets/images/membres/JoseMukoko.jpeg', gender: 0, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
-    { name: 'Fidele Menavanza', role: '', location: 'États-Unis', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
+    /* { name: 'Fidele Menavanza', role: '', location: 'États-Unis', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Clémentine Buaka', role: '', location: 'France', imageUrl: '', gender: 0, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Constant Lutonda', role: '', location: 'Brésil', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Darry', role: '', location: 'France', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
@@ -86,7 +86,7 @@ export class BigPictureService {
     { name: 'Anaclet Masamba', role: '', location: 'DR Congo', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Rachel Bakala', role: '', location: 'France', imageUrl: '', gender: 0, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
     { name: 'Moïse Fuakuingi', role: '', location: 'Angleterre', imageUrl: '', gender: 1, defaultImage: 'assets/images/Remy_Cravate1.jpg', profession: '', message: '', LinkedIn: '' },
-    
+     */
   ];
 
 
