@@ -16,6 +16,7 @@ export class PictureTableComponent {
     'assets/plantation/Tracteur2.jpeg',
     'assets/plantation/bouture1.jpeg',
     'assets/plantation/bouture2.jpeg',
+    'assets/plantation/bouture21.jpeg',
     'assets/plantation/bouture3.jpeg',
     'assets/plantation/bouture4.jpeg',
     'assets/plantation/bouture5.jpeg',

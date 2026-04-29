@@ -171,7 +171,7 @@ export class AppComponent {
     { name: 'Centieme Dossier - Fally Ipupa', link: ['/CentièmeDossier', 'gIfxaiLOjPQ'],},
     { name: 'Nzambe mokonzi- Bela Bela', link: ['/Nzambemokonzi', 'CXDRyznygQA'],},
     { name: 'Joël photo', link: ['/JoelPhoto', '-a_02lS-lg0'] },
-    {name: 'Tokoma ba Camarade Pamba', link: ['/TokomaBaCamarade', 'm7N5ZvrsmjE'],},
+    { name: 'Tokoma ba Camarade Pamba', link: ['/TokomaBaCamarade', 'm7N5ZvrsmjE'],},
     { name: 'Orgasy - Fally Ipupa', link: ['/Orgasy', 'ihmtjqUyFWQ'] },
     { name: 'Point Final', link: ['/PointFinal', 'ulznRM_QQPc'] },
     { name: 'Nzoto Na Nga Se Moko', link: ['/NzotoMoko', 'Po0U1sF45S0'] },

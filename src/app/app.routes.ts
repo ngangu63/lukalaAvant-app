@@ -23,6 +23,7 @@ import { AgriPiloteComponent } from './agri-pilote/agri-pilote.component';
 import { Sport2Component } from './sport2/sport2.component';
 import { CarouselComponent } from './features/carousel/carousel.component';
 import { PictureTableComponent } from './features/picture-table/picture-table.component';
+import { ImageMp4Component } from './features/image-mp4/image-mp4.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -163,6 +164,7 @@ export const routes: Routes = [
   { path: 'morgue', component: VueEnPlanComponent },
   { path: 'agriPilote', component: AgriPiloteComponent },
   { path: 'pictureTable', component: PictureTableComponent },
+  { path: 'pictureMp3', component: ImageMp4Component },
   { path: 'agriPicture', component: CarouselComponent },
   { path: '**', component: HomeComponent },
 ];
