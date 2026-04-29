@@ -9,7 +9,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './picture-table.component.css',
 })
 export class PictureTableComponent {
-
   images: string[] = [
     'assets/plantation/abouture1.jpeg',
     'assets/plantation/abouture2.jpeg',
@@ -20,7 +19,17 @@ export class PictureTableComponent {
     'assets/plantation/bouture3.jpeg',
     'assets/plantation/bouture4.jpeg',
     'assets/plantation/bouture5.jpeg',
-    'assets/plantation/bouture6.jpeg',
+    'assets/plantation/bouture7.jpeg',
+    'assets/plantation/bilanga1.jpeg',
+    'assets/plantation/bilanga2.jpeg',
+    'assets/plantation/bilanga3.jpeg',
+    'assets/plantation/bilanga4.jpeg',
+    'assets/plantation/bilanga5.jpeg',
+    'assets/plantation/bilanga6.jpeg', 
+    'assets/plantation/bilanga7.jpeg', 
+    'assets/plantation/bilanga8.jpeg',
+    'assets/plantation/bilanga9.jpeg', 
+    'assets/plantation/bilanga10.jpeg', 
   ];
 
   currentIndex = 0;
@@ -28,7 +37,10 @@ export class PictureTableComponent {
 
   // 👇 Only 4 images visible at a time
   get visibleImages(): string[] {
-    return this.images.slice(this.currentIndex, this.currentIndex + this.pageSize);
+    return this.images.slice(
+      this.currentIndex,
+      this.currentIndex + this.pageSize,
+    );
   }
 
   // 👇 Split visible images into rows of 2
