@@ -38,7 +38,7 @@ export class ImageMp4Component {
     {type: 'image', src: 'assets/plantation/bouture3.jpeg' },
     {type: 'image', src: 'assets/plantation/bouture4.jpeg' },
     {type: 'image', src: 'assets/plantation/bouture5.jpeg' },
-/*     {type: 'image', src: 'assets/plantation/bouture7.jpeg' }, */
+    {type: 'image', src: 'assets/plantation/bouture6.jpeg' }, 
     
     {type: 'image', src: 'assets/plantation/bilanga1.jpeg' },
   
