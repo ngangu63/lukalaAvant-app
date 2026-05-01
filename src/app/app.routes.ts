@@ -135,6 +135,7 @@ export const routes: Routes = [
   { path: 'NaTielaYoMotema/:videoId', component: YoutubeComponent },  
   { path: 'Reconnaissance/:videoId', component: YoutubeComponent },  
   { path: 'NalakiYo/:videoId', component: YoutubeComponent }, 
+  { path: 'BisoBaOyo/:videoId', component: YoutubeComponent },
   { path: 'CalmingAfricanV1/:videoId', component: YoutubeComponent },
   { path: 'CalmingAfricanV2/:videoId', component: YoutubeComponent }, 
   { path: 'RomanticLoveSongsCongo/:videoId', component: YoutubeComponent },

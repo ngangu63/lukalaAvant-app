@@ -220,6 +220,7 @@ export class AppComponent {
     { name: "NA TIELA YO MOTEMA - Moise Matuta", link: ['/NaTielaYoMotema', '5YqlC3gjhsg'] },  
     { name: "Reconnaissance - Carlyto Lassa", link: ['/Reconnaissance', 'QS86Xr0i9Yc'] },  
     { name: "Nalaki yo - Moise Matuta", link: ['/NalakiYo', 'eSX56P5hbH0'] },  
+    { name: "Biso ba oyo- Moise Matuta", link: ['/BisoBaOyo', 'ery0dpkVK80'] },  
 
 
 
