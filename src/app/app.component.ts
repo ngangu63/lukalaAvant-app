@@ -210,5 +210,21 @@ export class AppComponent {
 
   ];
 
+  religiousMusicList=[
+    { name: "La Grandeur De L’éternel", link: ['/lagrandeur', 'p8awDlbykVk'] },
+    { name: "Mwana Mpate", link: ['/mwanaMpate', 'tNhX2SknEYQ'] },  
+    { name: "Makolo ya massiya - Carlyto Lassa", link: ['/mokoloYamassiya', 'G-t7sh4M7wY'] }, 
+    { name: "Ngwende - Athom's et Nadège", link: ['/Ngwende', 'tlkUnqVOUhw'] },  
+    { name: "LAMENTATIONS - Mike KALAMBAY", link: ['/Lamentations', 'e5GX0mCCtWQ'] }, 
+    { name: "Kiti Ofandi - Mike KALAMBAY", link: ['/KitiOfandi', 'FIKN890VqLQ'] },  
+    { name: "NA TIELA YO MOTEMA - Moise Matuta", link: ['/NaTielaYoMotema', '5YqlC3gjhsg'] },  
+    { name: "Reconnaissance - Carlyto Lassa", link: ['/Reconnaissance', 'QS86Xr0i9Yc'] },  
+    { name: "Nalaki yo - Moise Matuta", link: ['/NalakiYo', 'eSX56P5hbH0'] },  
+
+
+
+
+  ]
+
 
 }
