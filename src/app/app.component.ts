@@ -152,13 +152,12 @@ export class AppComponent {
   ];
 
   congoMusicList = [
-    
+    { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
     { name: 'ESWI YO WAPI - FAYA TESS', link: ['/FayaTessEswi','9kRwzBZChZo'] },
     { name: 'Rtc Riva - Madilu System', link: ['/RTCRIVA', 'owgNTJlBjNQ'] },
     { name: 'Hortense', link: ['/Hortense', 'VpvDSz8skb8'] },
     { name: 'Koukoulou - Koffi', link: ['/Koukoulou', 'j8gCb6bKC44'] },
     { name: 'Kelhia - Mbilia Bel', link: ['/Kelhiambiliabel', '0SpzfQnFC4Q'] },
-    { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
     { name: 'Eswi yo wapi - Mbilia Bel', link: ['/Eswiyowapi', 'gcrkm2HFV-o'] },
     { name: 'Maze - Rochereau Tabu Ley', link: ['/Maze', 'xUaMEARE-2E'] },
     { name: 'Beyanga - Mbilia Bel', link: ['/Beyanga', 'ZhXnj3EACXA'] },
