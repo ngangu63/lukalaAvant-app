@@ -101,7 +101,7 @@ export class AppComponent {
   }
 
   worldMusicList = [  
-     { name: ' Whitney Houston - I Will Always Love You', link: ['/AlwaysLoveYou', '3JWTaaS7LdU'] },  
+    { name: ' Whitney Houston - I Will Always Love You', link: ['/AlwaysLoveYou', '3JWTaaS7LdU'] },  
     { name: 'Phil Collins - Do You Remember?', link: ['/doyouremember', 'NTvR7HySgHo'] }, 
     { name: 'Elton John - Sacrifice', link: ['/sacrifice', 'NrLkTZrPZA4'] },  
     { name: 'Michael Jackson - Human Nature', link: ['/humanNature', 'ElN_4vUvTPs'] },
@@ -152,11 +152,13 @@ export class AppComponent {
   ];
 
   congoMusicList = [
+    
     { name: 'ESWI YO WAPI - FAYA TESS', link: ['/FayaTessEswi','9kRwzBZChZo'] },
     { name: 'Rtc Riva - Madilu System', link: ['/RTCRIVA', 'owgNTJlBjNQ'] },
     { name: 'Hortense', link: ['/Hortense', 'VpvDSz8skb8'] },
     { name: 'Koukoulou - Koffi', link: ['/Koukoulou', 'j8gCb6bKC44'] },
     { name: 'Kelhia - Mbilia Bel', link: ['/Kelhiambiliabel', '0SpzfQnFC4Q'] },
+    { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
     { name: 'Eswi yo wapi - Mbilia Bel', link: ['/Eswiyowapi', 'gcrkm2HFV-o'] },
     { name: 'Maze - Rochereau Tabu Ley', link: ['/Maze', 'xUaMEARE-2E'] },
     { name: 'Beyanga - Mbilia Bel', link: ['/Beyanga', 'ZhXnj3EACXA'] },
@@ -206,7 +208,9 @@ export class AppComponent {
     { name: 'Ayindjo - Nyboma', link: ['/Ayindjo', 'DMDSnkW5tfE'] },  
     { name: 'Ebale ya Congo', link: ['/EbaleYaCcongo', 'vhoVG_KjEEQ'] }, 
     { name: 'Ambiance katho', link: ['/AmbianceKatho', 'epknnlEHi8U'] }, 
-    { name: 'Félicité parafifi', link: ['/parafifi', 'AN6keFxEU-U'] },
+    { name: 'Félicité parafifi', link: ['/parafifi', 'AN6keFxEU-U'] }, 
+    
+
 
   ];
 

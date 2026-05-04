@@ -141,6 +141,7 @@ export const routes: Routes = [
   { path: 'RomanticLoveSongsCongo/:videoId', component: YoutubeComponent },
   { path: 'Accident/:videoId', component: YoutubeComponent },
   { path: 'CentièmeDossier/:videoId', component: YoutubeComponent },
+  { path: 'mbrouss/:videoId', component: YoutubeComponent },
   { path: 'Orgasy/:videoId', component: YoutubeComponent },
   { path: 'Koukoulou/:videoId', component: YoutubeComponent },
   { path: 'Ikea/:videoId', component: YoutubeComponent },
