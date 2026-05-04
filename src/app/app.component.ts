@@ -208,6 +208,10 @@ export class AppComponent {
     { name: 'Ebale ya Congo', link: ['/EbaleYaCcongo', 'vhoVG_KjEEQ'] }, 
     { name: 'Ambiance katho', link: ['/AmbianceKatho', 'epknnlEHi8U'] }, 
     { name: 'Félicité parafifi', link: ['/parafifi', 'AN6keFxEU-U'] }, 
+    { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
+
+
+
     
 
 
@@ -224,8 +228,7 @@ export class AppComponent {
     { name: "Reconnaissance - Carlyto Lassa", link: ['/Reconnaissance', 'QS86Xr0i9Yc'] },  
     { name: "Nalaki yo - Moise Matuta", link: ['/NalakiYo', 'eSX56P5hbH0'] },  
     { name: "Biso ba oyo- Moise Matuta", link: ['/BisoBaOyo', 'ery0dpkVK80'] },  
-    { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
-
+    
 
 
 
