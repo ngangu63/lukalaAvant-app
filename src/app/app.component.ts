@@ -152,7 +152,7 @@ export class AppComponent {
   ];
 
   congoMusicList = [
-    { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
+    
     { name: 'ESWI YO WAPI - FAYA TESS', link: ['/FayaTessEswi','9kRwzBZChZo'] },
     { name: 'Rtc Riva - Madilu System', link: ['/RTCRIVA', 'owgNTJlBjNQ'] },
     { name: 'Hortense', link: ['/Hortense', 'VpvDSz8skb8'] },
@@ -224,6 +224,7 @@ export class AppComponent {
     { name: "Reconnaissance - Carlyto Lassa", link: ['/Reconnaissance', 'QS86Xr0i9Yc'] },  
     { name: "Nalaki yo - Moise Matuta", link: ['/NalakiYo', 'eSX56P5hbH0'] },  
     { name: "Biso ba oyo- Moise Matuta", link: ['/BisoBaOyo', 'ery0dpkVK80'] },  
+    { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
 
 
 
