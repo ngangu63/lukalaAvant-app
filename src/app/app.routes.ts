@@ -24,6 +24,7 @@ import { Sport2Component } from './sport2/sport2.component';
 import { CarouselComponent } from './features/carousel/carousel.component';
 import { PictureTableComponent } from './features/picture-table/picture-table.component';
 import { ImageMp4Component } from './features/image-mp4/image-mp4.component';
+import { Sport3Component } from './sport3/sport3.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -171,7 +172,8 @@ export const routes: Routes = [
   { path: 'FicheDeProject1', component: FicheDeProjectComponent },
   { path: 'PlanStrategique', component: PlanStrategiqueComponent },
   { path: 'Ciza', component: SportComponent },
-  { path: 'Cilu', component: Sport2Component },
+  { path: 'Cilu', component: Sport2Component }, 
+  { path: 'CiluAvecTshotsho', component: Sport3Component },
   { path: 'morgue', component: VueEnPlanComponent },
   { path: 'agriPilote', component: AgriPiloteComponent },
   { path: 'pictureTable', component: PictureTableComponent },
