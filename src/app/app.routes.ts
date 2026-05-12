@@ -139,6 +139,7 @@ export const routes: Routes = [
   { path: 'BisoBaOyo/:videoId', component: YoutubeComponent },
   { path: 'CalmingAfricanV1/:videoId', component: YoutubeComponent },
   { path: 'CalmingAfricanV2/:videoId', component: YoutubeComponent }, 
+  { path: 'papaNaRoissy/:videoId', component: YoutubeComponent },
   { path: 'RomanticLoveSongsCongo/:videoId', component: YoutubeComponent },
   { path: 'Accident/:videoId', component: YoutubeComponent },
   { path: 'CentièmeDossier/:videoId', component: YoutubeComponent },

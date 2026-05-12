@@ -209,6 +209,8 @@ export class AppComponent {
     { name: 'Ambiance katho', link: ['/AmbianceKatho', 'epknnlEHi8U'] }, 
     { name: 'Félicité parafifi', link: ['/parafifi', 'AN6keFxEU-U'] }, 
     { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
+    { name: 'Papa na Roissy - Koffi Olomide ', link: ['/papaNaRoissy', 'eJlOM5EyNys'] }, 
+
 
 
 
