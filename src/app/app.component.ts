@@ -210,6 +210,7 @@ export class AppComponent {
     { name: 'Félicité parafifi', link: ['/parafifi', 'AN6keFxEU-U'] }, 
     { name: 'MBROUSS - Zaïko Langa Langa', link: ['/mbrouss', 'pN3s5Ru4QVc'] }, 
     { name: 'Papa na Roissy - Koffi Olomide ', link: ['/papaNaRoissy', 'eJlOM5EyNys'] }, 
+    { name: 'Riana- Choc Stars', link: ['/riana', 'c5qhEd9T1x4'] }, 
 
 
 
