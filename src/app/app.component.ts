@@ -223,8 +223,8 @@ export class AppComponent {
   ];
 
   religiousMusicList=[
-    { name: "La Grandeur De L’éternel", link: ['/lagrandeur', 'p8awDlbykVk'] },
-    { name: "Mwana Mpate", link: ['/mwanaMpate', 'tNhX2SknEYQ'] },  
+    { name: "La Grandeur De L’éternel - Matou Samuel", link: ['/lagrandeur', 'p8awDlbykVk'] },
+    { name: "Mwana Mpate - Gael", link: ['/mwanaMpate', 'tNhX2SknEYQ'] },  
     { name: "Makolo ya massiya - Carlyto Lassa", link: ['/mokoloYamassiya', 'G-t7sh4M7wY'] }, 
     { name: "Ngwende - Athom's et Nadège", link: ['/Ngwende', 'tlkUnqVOUhw'] },  
     { name: "LAMENTATIONS - Mike KALAMBAY", link: ['/Lamentations', 'e5GX0mCCtWQ'] }, 
