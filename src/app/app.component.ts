@@ -35,7 +35,7 @@ export class AppComponent {
 
   isModalOpen = false;
   password = '';
-  validPassword = '2025';
+  validPassword = '2026';
 
   constructor(
     private pictureService: BigPictureService,
